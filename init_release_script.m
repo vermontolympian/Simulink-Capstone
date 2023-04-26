@@ -2,8 +2,8 @@
 loadlibrary('dxl_x64_c', 'dynamixel_sdk.h', 'addheader', 'port_handler.h', 'addheader', 'packet_handler.h');
 
 Ts = 0.02;
-myDxl = slDxl('COM6', 1000000);
-myDxl.findDxls()
+% myDxl = slDxl('COM6', 1000000);
+% myDxl.findDxls()
 myDxl
 
 %%
